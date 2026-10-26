@@ -1,0 +1,14 @@
+**
+!pyproject.toml
+!BACKEND.md
+!MANIFEST.in
+!src/
+!src/lgthinq_daemon/
+!src/lgthinq_daemon/*.py
+!packaging/
+!packaging/docker/
+!packaging/docker/Dockerfile
+
+!LICENSE
+!LICENSE-DOCS
+!NOTICE

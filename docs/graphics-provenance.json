@@ -1,0 +1,149 @@
+[
+  {
+    "path": "plasmoid/contents/images/lgthinq.svg",
+    "reviewed_sha256": "4748a5ddf688e62248ac072ca0621c3728d6843e9486f485c1c73b14355e990b",
+    "recipe": "Cinco retângulos 5x4 na grade24, coordenadas (4,3),(4,10),(4,17),(15,6),(15,13); preenchimento plano, sem letra/imagem externa.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "aa6be856883297f0a255e1a26986ef11aabe1cbaa28d4a11e7b2fa1ebed188e0",
+        "audit_location": "external-preservation:sha256:aa6be856883297f0a255e1a26986ef11aabe1cbaa28d4a11e7b2fa1ebed188e0"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "publication_authorization": "maintainer-2026-10-26"
+  },
+  {
+    "path": "plasmoid/contents/ui/AirConditioner.qml",
+    "reviewed_sha256": "302ea8780a9c33ced00818acc77f1e77516592c4a80e253a3ef8c2b6a8a641d0",
+    "recipe": "Composição declarativa do novo PanelIcon, centralizado, apenas cor ligada ao estado confirmado; nenhuma silhueta de aparelho ou lettering.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "5b5b2214e572a1c3e5f4fbf97a60b74d5a012e6aaa7a3c1ee4ee1dd330c22869",
+        "audit_location": "external-preservation:sha256:5b5b2214e572a1c3e5f4fbf97a60b74d5a012e6aaa7a3c1ee4ee1dd330c22869"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "publication_authorization": "maintainer-2026-10-26"
+  },
+  {
+    "path": "plasmoid/contents/ui/FeatureCard.qml",
+    "reviewed_sha256": "476327eacc918a0825773f2f7939c9758bcc2161343fa78a8e2b6a9c19e3b62b",
+    "recipe": "Linha horizontal com glifo abstrato, heading, valor e indicador textual; sem cartões de quatro colunas ou caminhos de ícones externos.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "b3a3febf46f19268dbe4d3f992cea96f2f024feb67345f121147cc12a0851ad5",
+        "audit_location": "external-preservation:sha256:b3a3febf46f19268dbe4d3f992cea96f2f024feb67345f121147cc12a0851ad5"
+      },
+      {
+        "sha256": "8e60d7faccc160f2f9badafe97049833dbc33493e73f215e03829d7ac56cd9da",
+        "audit_location": "external-preservation:sha256:8e60d7faccc160f2f9badafe97049833dbc33493e73f215e03829d7ac56cd9da"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "publication_authorization": "maintainer-2026-10-26"
+  },
+  {
+    "path": "plasmoid/contents/ui/IconGlyph.qml",
+    "reviewed_sha256": "3d3c6f3847714e621b445fbe0505f7580f4a59c4362282e955a3208ff41d8632",
+    "recipe": "Seis combinações de quadrados, barras e círculos, descritas em ARTWORK.md; aliases técnicos snow/fan/moon/leaf/power/airflow preservados.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "4a48996307d848876ea77ca52b0e9c8e5b2184c9b711d2fa9fa439b2272c717e",
+        "audit_location": "external-preservation:sha256:4a48996307d848876ea77ca52b0e9c8e5b2184c9b711d2fa9fa439b2272c717e"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "publication_authorization": "maintainer-2026-10-26"
+  },
+  {
+    "path": "plasmoid/contents/ui/PanelIcon.qml",
+    "reviewed_sha256": "dff2def2a78dfde932db12c01b7da0d80faab7290c481b06129fff24643a7d19",
+    "recipe": "A mesma receita nova de cinco blocos escalada pelas dimensões; foreground vem da paleta do painel.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "f5ae7cab1f41b3aff0afc3a3c306968d17e85b8b3f1954f7ec5fadf4fb582e63",
+        "audit_location": "external-preservation:sha256:f5ae7cab1f41b3aff0afc3a3c306968d17e85b8b3f1954f7ec5fadf4fb582e63"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "publication_authorization": "maintainer-2026-10-26"
+  },
+  {
+    "path": "plasmoid/contents/ui/main.qml",
+    "reviewed_sha256": "3c7429b9a2948c92f791939fd3332fd74464226e817e1027f680e96e05935868",
+    "recipe": "Novo formulário: cabeçalho pequeno, medidas em linhas, controles QtQuick nativos, Eco textual, lista de características e rodapé. Prefixo de protocolo e plumbing de menu reaproveitados.",
+    "creation_process": "Proposta assistida por Codex nesta execução autorizada de 2026-10-24, a partir de brief textual registrado antes da escrita. Recursos antigos vistos para auditoria/API; nenhuma alegação de clean room. Sem cópia/traçado de geometria ou screenshot como entrada da receita.",
+    "source_materials": [
+      "docs/ARTWORK.md: receita declarada",
+      "primitivas QtQuick/controles KDE do sistema; não incorporados como arquivos"
+    ],
+    "functional_reuse": "API/nomes de componente e imports preservados; main.qml retém controlador/protocolo/menu e FeatureCard retém propriedades/i18n. Direitos desses trechos herdados continuam pendentes.",
+    "retired_versions": [
+      {
+        "sha256": "562d0aab368fd10223f4f1300c39fe6ee20318eb20d1dba3851668299364eae9",
+        "audit_location": "external-preservation:sha256:562d0aab368fd10223f4f1300c39fe6ee20318eb20d1dba3851668299364eae9"
+      },
+      {
+        "sha256": "e90f6752bb6332c8dba3b6440eec9921cc5336de843be26039296432ba4d8e1f",
+        "audit_location": "external-preservation:sha256:e90f6752bb6332c8dba3b6440eec9921cc5336de843be26039296432ba4d8e1f"
+      }
+    ],
+    "reference_visuals_used_for_new_geometry": [],
+    "review_status": "maintainer publication authorized; not a title certification",
+    "redistribution_authorized": true,
+    "intended_license": "GPL-3.0-or-later",
+    "remaining_action": "Preservar origem, atribuições de terceiros e revisão visual/ambiental.",
+    "candidate_adjustment": "2026-10-25: dois labels de identidade e apresentação traduzível de erros/estados com fallback; receita/geometria/protocolo preservados.",
+    "publication_authorization": "maintainer-2026-10-26"
+  }
+]

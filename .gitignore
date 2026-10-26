@@ -1,0 +1,63 @@
+.venv/
+.venv-runtime/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+*.apk
+*.dex
+*.har
+*.pcap*
+
+# Ambientes e ferramentas locais; preservar documentos/evidências versionados.
+.venv-*/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+/logs/
+/*.log
+/*.tmp
+*~
+
+# Configuração privada e material gerado; exemplos públicos continuam visíveis.
+.env
+.env.*
+!.env.example
+!.env.sample
+/config.local.json
+/secrets/
+/certs/
+/tls/
+
+# Instruções e contexto locais de agentes de IA
+/AGENTS.md
+/CLAUDE.md
+/.agents/
+/.claude/
+/.omc/template-version.json
+
+# Documentação exclusivamente interna de desenvolvimento
+/docs/STATUS.md
+/docs/ACCEPTANCE.md
+/docs/PROJECT_BRIEF.md
+/docs/REA_INVESTIGATION.md
+/docs/evidence/PACKAGE-MANIFEST.md
+/docs/evidence/README.md
+/docs/evidence/evidence-register.md
+/docs/evidence/RUNTIME_VALIDATION.md
+/docs/evidence/REAL_READ_VALIDATION.md
+/docs/evidence/WIDGET_HOMELAB.md
+/docs/evidence/CONTROL_ENABLEMENT.md
+
+# .gitignore protege arquivos não rastreados; não desrastreia arquivos já
+# presentes no índice ou no histórico Git. A exclusão do snapshot futuro
+# exige uma etapa separada e explicitamente autorizada.
+.agents/
+.agents/

@@ -1,0 +1,17 @@
+[Unit]
+Description=LG ThinQ AirCon Widget backend (simulation template)
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=@PROJECT_DIR@
+Environment=PYTHONPATH=@PROJECT_DIR@/src
+ExecStart=@PYTHON@ -m lgthinq_daemon --simulate serve
+Restart=on-failure
+RestartSec=15
+NoNewPrivileges=true
+UMask=0077
+
+[Install]
+WantedBy=graphical-session.target

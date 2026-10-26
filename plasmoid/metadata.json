@@ -1,0 +1,19 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "LG ThinQ AirCon Widget contributors"
+      }
+    ],
+    "Category": "System Information",
+    "Description": "LG ThinQ air conditioner controls for KDE Plasma 6",
+    "Description[pt_BR]": "Controle de ar-condicionado LG ThinQ para KDE Plasma 6",
+    "Icon": "/images/lgthinq.svg",
+    "Id": "org.lgthinq.aircon",
+    "Name": "LG ThinQ AirCon Widget",
+    "Version": "1.0.0rc1",
+    "License": "GPL-3.0-or-later"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.4"
+}

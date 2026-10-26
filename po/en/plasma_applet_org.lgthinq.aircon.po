@@ -1,0 +1,558 @@
+# Source template; rights and linguistic review pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: LG ThinQ AirCon Widget 1.0.0rc1\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: plasmoid/contents/config/config.qml:5
+#, kde-format
+msgid "Aparência"
+msgstr ""
+
+#: plasmoid/contents/config/config.qml:10
+#, kde-format
+msgid "Conexão e credenciais"
+msgstr ""
+
+#: plasmoid/contents/ui/FeatureCard.qml:11 plasmoid/contents/ui/main.qml:75
+#: plasmoid/contents/ui/main.qml:92 plasmoid/contents/ui/main.qml:462
+#, kde-format
+msgid "Indisponível"
+msgstr ""
+
+#: plasmoid/contents/ui/FeatureCard.qml:19 plasmoid/contents/ui/main.qml:462
+#, kde-format
+msgctxt "Feature name and value"
+msgid "%1: %2"
+msgstr ""
+
+#: plasmoid/contents/ui/FeatureCard.qml:20
+#, kde-format
+msgid "Selecionar opção"
+msgstr ""
+
+#: plasmoid/contents/ui/FeatureCard.qml:20
+#, kde-format
+msgid "Somente leitura"
+msgstr ""
+
+#: plasmoid/contents/ui/configAppearance.qml:12
+#, kde-format
+msgid "Nome:"
+msgstr ""
+
+#: plasmoid/contents/ui/configAppearance.qml:13
+#: plasmoid/contents/ui/configConnection.qml:132
+#, kde-format
+msgid "Ar-condicionado"
+msgstr ""
+
+#: plasmoid/contents/ui/configAppearance.qml:17
+#, kde-format
+msgid "Unidade preferida:"
+msgstr ""
+
+#: plasmoid/contents/ui/configAppearance.qml:22
+#, kde-format
+msgid "Mostrar temperatura na barra"
+msgstr ""
+
+#: plasmoid/contents/ui/configAppearance.qml:24
+#, kde-format
+msgid "A unidade só é usada se o aparelho a disponibilizar."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:13
+#, kde-format
+msgid "Conectando ao componente local…"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:20
+#, kde-format
+msgid "Desbloqueie o KWallet/Secret Service ou informe um PAT válido."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:21
+#, kde-format
+msgid "PAT recusado pela LG. Substitua a credencial e salve novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:22
+#: plasmoid/contents/ui/main.qml:146
+#, kde-format
+msgid "Selecione o aparelho e clique em Salvar e conectar."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:23
+#, kde-format
+msgid "Nenhum ar-condicionado encontrado. Confira país e conta LG."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:24
+#: plasmoid/contents/ui/main.qml:145
+#, kde-format
+msgid "O aparelho salvo não está disponível. Selecione outro aparelho."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:25
+#, kde-format
+msgid "Confira o país, o aparelho e a confirmação de mudança para modo local."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:26
+#: plasmoid/contents/ui/main.qml:147
+#, kde-format
+msgid "Região indisponível. Confira o país da conta LG."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:27
+#: plasmoid/contents/ui/main.qml:143
+#, kde-format
+msgid "Não foi possível acessar a LG. Confira sua conexão."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:28
+#: plasmoid/contents/ui/main.qml:148
+#, kde-format
+msgid "Limite de consultas atingido. Aguarde antes de tentar novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:29
+#: plasmoid/contents/ui/main.qml:151
+#, kde-format
+msgid "Instalação incompleta. Execute novamente o instalador local."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:30
+#, kde-format
+msgid "Não foi possível concluir. Confira conexão e cofre e tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:31
+#, kde-format
+msgid "Falha na conexão. Confira a rede e tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:38
+#, kde-format
+msgid "Resposta incompatível. Atualize a instalação local."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:44
+#, kde-format
+msgid "O backend antigo está em execução. Encerre-o e execute o instalador local."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:66
+#, kde-format
+msgid "Consultando a LG…"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:67
+#, kde-format
+msgid "Conexão homelab preservada. Confirme abaixo para mudar para conexão local."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:68
+#, kde-format
+msgid "Configuração salva. O estado da conexão aparece no widget."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:69
+#, kde-format
+msgid "Informe o PAT e salve para descobrir seus aparelhos."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:82
+#, kde-format
+msgid "Componente local indisponível. Execute ou atualize o instalador local e tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:92
+#, kde-format
+msgid "Salvando e conectando…"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:101
+#, kde-format
+msgid "Componente ocupado. Aguarde e tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:108
+#, kde-format
+msgid "Conexão direta com a LG ThinQ"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:111
+#, kde-format
+msgid "Cadastre seu PAT no cofre deste computador. O widget se conecta automaticamente, sem servidor separado. Use Salvar e conectar para aplicar esta aba."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:116
+#, kde-format
+msgid "Crie seu PAT em %1 no navegador. Não informe a senha da conta LG."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:119
+#, kde-format
+msgid "País da conta LG"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:121
+#, kde-format
+msgid "PAT (deixe vazio para manter o existente)"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:140
+#, kde-format
+msgid "Buscando aparelhos…"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:141
+#, kde-format
+msgid "Aguardando componente local"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:142
+#, kde-format
+msgid "Salve a conexão ou clique em Buscar aparelhos"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:148
+#, kde-format
+msgid "Permitir comandos ao aparelho pelos controles do widget"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:154
+#, kde-format
+msgid "Substituir a conexão homelab por conexão direta neste computador"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:160
+#, kde-format
+msgid "Salvar e conectar"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:165
+#, kde-format
+msgid "Buscar aparelhos"
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:170
+#, kde-format
+msgid "Componente ocupado. Tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/configConnection.qml:174
+#, kde-format
+msgid "Reconectar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:25
+#, kde-format
+msgid "Aguardando serviço local…"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:60 plasmoid/contents/ui/main.qml:116
+#, kde-format
+msgid "LG ThinQ AirCon Widget"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:61
+#, kde-format
+msgid "%1 · %2"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:89
+#, kde-format
+msgid "Ligado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:89
+#, kde-format
+msgid "Desligado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:89
+#, kde-format
+msgid "Frio"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:89
+#, kde-format
+msgid "Aquecer"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:90
+#, kde-format
+msgid "Auto"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:90
+#, kde-format
+msgid "Desumidificar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:90
+#, kde-format
+msgid "Ventilar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:90
+#, kde-format
+msgid "Baixa"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:90
+#, kde-format
+msgid "Média"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:91
+#, kde-format
+msgid "Alta"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:91
+#, kde-format
+msgid "Natural"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:91 plasmoid/contents/ui/main.qml:94
+#, kde-format
+msgid "Desativado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:91
+#, kde-format
+msgid "Normal"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:93
+#, kde-format
+msgid "Ativado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:99
+#, kde-format
+msgid "Modo"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:100
+#, kde-format
+msgid "Ventilação"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:101
+#, kde-format
+msgid "Sono"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:102
+#, kde-format
+msgid "Direção"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:103
+#, kde-format
+msgid "Função"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:116
+#, kde-format
+msgid "Offline"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:140
+#, kde-format
+msgid "Abra as configurações para conectar à LG"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:141
+#, kde-format
+msgid "Confira PAT e cofre nas configurações"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:142
+#, kde-format
+msgid "Substitua o PAT nas configurações"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:144
+#, kde-format
+msgid "O aparelho está desconectado. Confira sua conexão Wi-Fi."
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:149
+#, kde-format
+msgid "Recurso indisponível para este aparelho."
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:150
+#, kde-format
+msgid "Habilite Permitir comandos nas configurações de conexão."
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:152 plasmoid/contents/ui/main.qml:174
+#, kde-format
+msgid "Resposta incompatível do serviço"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:154
+#, kde-format
+msgid "Não foi possível concluir. Atualize o estado e tente novamente."
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:155
+#, kde-format
+msgid "Conectado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:156
+#, kde-format
+msgid "Atualizando…"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:156
+#, kde-format
+msgid "Conectando…"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:157
+#, kde-format
+msgid "Desconectado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:157
+#, kde-format
+msgid "Autenticação necessária"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:158
+#, kde-format
+msgid "Comando em andamento…"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:159
+#, kde-format
+msgid "Erro operacional"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:159
+#, kde-format
+msgid "Estado indisponível"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:188
+#, kde-format
+msgid "Conexão local indisponível; confira a instalação do widget"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:244
+#, kde-format
+msgid "Comando rejeitado pelo serviço"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:266
+#, kde-format
+msgid "Serviço local indisponível"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:384
+#, kde-format
+msgid "Desligar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:384
+#, kde-format
+msgid "Ligar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:392
+#, kde-format
+msgid "Ambiente"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:400 plasmoid/contents/ui/main.qml:430
+#, kde-format
+msgid "Temperatura desejada"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:405
+#, kde-format
+msgid "Temperatura selecionada %1"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:417
+#, kde-format
+msgid "Diminuir temperatura"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:445
+#, kde-format
+msgid "Aumentar temperatura"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:453
+#, kde-format
+msgid "Aplicando seleção…  Confirmada: %1"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:454
+#, kde-format
+msgid "Selecionada · aguardando envio…  Confirmada: %1"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:462
+#, kde-format
+msgid "Eco"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:463
+#, kde-format
+msgid "Economia de energia"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:491
+#, kde-format
+msgid "Habilite Permitir comandos nas configurações de conexão. No modo homelab, confira também a permissão de controle no servidor."
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:502
+#, kde-format
+msgid "Simulação · nenhum aparelho real"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:502
+#, kde-format
+msgid "%1 · somente leitura"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:510
+#, kde-format
+msgid "Atualizar estado"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:516
+#, kde-format
+msgid "Mais opções"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:544
+#, kde-format
+msgid "Configurar widget…"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:549
+#, kde-format
+msgid "Atualizar"
+msgstr ""
+
+#: plasmoid/contents/ui/main.qml:553
+#, kde-format
+msgid "Credenciais protegidas pelo cofre"
+msgstr ""

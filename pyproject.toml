@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgthinq-aircon-widget"
+version = "1.0.0rc1"
+description = "LG ThinQ AirCon Widget — air conditioner controls for KDE Plasma 6"
+readme = "BACKEND.md"
+requires-python = ">=3.11"
+license = { text = "GPL-3.0-or-later" }
+authors = [{ name = "Project contributors" }]
+dependencies = []
+
+[project.scripts]
+lgthinq = "lgthinq_daemon.cli:main"
+
+[project.optional-dependencies]
+poc = [] # Uses host dbus-python + PyGObject; see docs/INSTALL.md
+thinq = ["thinqconnect==1.0.14", "keyring>=25,<26"]
+server = ["aiohttp>=3.14,<4"]
+remote = ["aiohttp>=3.14,<4", "keyring>=25,<26"]
+credentials = ["keyring>=25,<26"]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["lgthinq_daemon"]
+namespaces = false
+
+[tool.setuptools]
+include-package-data = false
+license-files = ["LICENSE", "LICENSE-DOCS", "NOTICE"]
+
+[tool.setuptools.package-data]
+lgthinq_daemon = ["locale/en/LC_MESSAGES/lgthinq-kde-widget.mo", "locale/pt_BR/LC_MESSAGES/lgthinq-kde-widget.mo"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

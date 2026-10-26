@@ -1,0 +1,20 @@
+LG ThinQ AirCon Widget
+
+Public distribution authorized by the maintainer on 2026-10-26.
+
+Own source code, executable examples, tests, build/configuration files,
+catalogs and SVG/QML artwork: GNU General Public License version 3 or,
+at your option, any later version (SPDX: GPL-3.0-or-later). See LICENSE.
+
+Own documentation prose: Creative Commons Attribution 4.0 International
+(SPDX: CC-BY-4.0). See LICENSE-DOCS. Attribution designation:
+LG ThinQ AirCon Widget contributors. Executable examples within documents
+use the code license above. Identify modifications when redistributing.
+
+These grants cover only rights held by the licensor. Third-party code,
+notices and dependencies retain their respective licenses and attribution.
+LG, ThinQ and KDE are third-party names/trademarks used for compatibility
+identification; no affiliation or endorsement is implied.
+
+No warranty is provided; see the complete license terms. Historical Docker
+images and retired artwork are outside this source distribution.

@@ -1,0 +1,319 @@
+# Source template; rights and linguistic review pending.
+msgid ""
+msgstr ""
+"Project-Id-Version: LG ThinQ AirCon Widget 1.0.0rc1\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/lgthinq_daemon/cli.py:18
+msgid "LG ThinQ AirCon Widget diagnostics and control"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:20
+msgid "serve-local reads saved connection settings; use configure or the UI. --no-allow-control enforces read-only for the whole service session."
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:30
+msgid "Allow real device commands from the CLI/widget (default: read-only)"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:32
+msgid "Homelab HTTPS origin (no LG PAT needed on client)"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:34
+msgid "Homelab access-key vault alias (default: default)"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:36
+msgid "HTTP server bind address (default: 127.0.0.1)"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:37
+msgid "HTTP server port (default: 8765)"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:41
+msgid "Non-secret JSON configuration path"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:42
+msgid "Stable UUID; generate once with python -m uuid"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:43
+msgid "Local vault entry alias"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:44
+msgid "Select a discovery index locally"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:46
+msgid "Exact device ID, never automatically selects among devices"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:63
+msgid "JSON command value"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:69
+msgid "Use --simulate serve; real daemon lifecycle pending validation"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:78
+msgid "Real control disabled: restart with --allow-control to enable device commands"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:82
+msgid "Remote CLI supports status, command and serve"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:92 src/lgthinq_daemon/cli.py:143
+msgid "command requires key and JSON value"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:100
+msgid "--client-id requires a stable UUID"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:103 src/lgthinq_daemon/cli.py:243
+msgid "Country must be a two-letter code"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:133
+msgid "Invalid device selection"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:137
+msgid "Device absent or --device not supplied; no compatibility conclusion"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:156
+msgid "serve-local: --api-token-account is unsupported; vault alias is default"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:165
+msgid "serve-local does not serve HTTP; use serve-http for host/port/TLS options"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:169
+msgid "serve-local accepts no command arguments; use command"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:181
+#, python-brace-format
+msgid "serve-local does not accept --{value0}; use configure or the connection UI"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:187
+msgid "serve-local: enable control in configure or the connection UI"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:224
+msgid "Endpoint mode runs a local bridge, not a second server"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:239
+msgid "Live service requires device selection and stable client-id"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:262
+msgid "TLS certificate and key must be provided together"
+msgstr ""
+
+#: src/lgthinq_daemon/cli.py:288
+msgid "Optional SDK/credential dependency missing"
+msgstr ""
+
+#: scripts/install_local.py:52
+msgid "Unsupported control character in installation path"
+msgstr ""
+
+#: scripts/install_local.py:65
+msgid "XDG paths must be absolute"
+msgstr ""
+
+#: scripts/install_local.py:92
+msgid "Python 3.11 ou superior é necessário"
+msgstr ""
+
+#: scripts/install_local.py:94
+msgid "Execute como usuário da sessão KDE, sem sudo/root"
+msgstr ""
+
+#: scripts/install_local.py:96
+msgid "Diretório de instalação simbólico não gerenciado"
+msgstr ""
+
+#: scripts/install_local.py:101
+msgid "Recibo local inconsistente; revise a instalação antes de alterar"
+msgstr ""
+
+#: scripts/install_local.py:107
+#, python-brace-format
+msgid ""
+"Foi encontrado o serviço da instalação antiga (lgthinq.service).\n"
+"Para encerrar esse serviço e impedir que volte no próximo login, execute:\n"
+"\n"
+"  systemctl --user disable --now lgthinq.service\n"
+"  rm -- {value0}\n"
+"  systemctl --user daemon-reload\n"
+"\n"
+"Esses comandos removem apenas o serviço antigo, preservando PAT e configurações.\n"
+"Depois, tente instalar novamente:\n"
+"\n"
+"  {value1}"
+msgstr ""
+
+#: scripts/install_local.py:120
+#, python-brace-format
+msgid "Dependência ausente: {value0}; instale pelo gerenciador da distribuição"
+msgstr ""
+
+#: scripts/install_local.py:137
+msgid "Módulo Plasma org.kde.plasma.workspace.dbus com SignalWatcher ausente"
+msgstr ""
+
+#: scripts/install_local.py:153
+#, python-brace-format
+msgid "Registro simbólico não gerenciado: {value0}"
+msgstr ""
+
+#: scripts/install_local.py:158
+#, python-brace-format
+msgid "Arquivo existente não gerenciado: {value0}; migração manual necessária"
+msgstr ""
+
+#: scripts/install_local.py:164
+#, python-brace-format
+msgid ""
+"Encontramos uma instalação antiga do widget LG ThinQ AirCon Widget.\n"
+"Nada foi removido. Para substituir pelo produto integrado:\n"
+"\n"
+"1. Remova a instância LG ThinQ AirCon Widget da barra pelo modo de edição do painel.\n"
+"2. Copie e execute este comando no mesmo terminal, sem sudo:\n"
+"\n"
+"  {value0}\n"
+"\n"
+"Isso remove somente o pacote antigo. Seu PAT e as configurações são preservados.\n"
+"3. Execute novamente o instalador:\n"
+"\n"
+"  {value1}\n"
+"\n"
+"4. Quando a instalação terminar, adicione LG ThinQ AirCon Widget à barra novamente."
+msgstr ""
+
+#: scripts/install_local.py:211
+#, python-brace-format
+msgid ""
+"Backend anterior está em execução. Encerre o terminal dele ou a unidade lgthinq.service antes de instalar; nenhum processo foi encerrado.\n"
+"Se você iniciou Python/serve em um terminal, volte a esse terminal e pressione Ctrl+C uma vez. Não é necessário fechar os outros terminais.\n"
+"Se iniciou pelo systemd, execute: systemctl --user disable --now lgthinq.service\n"
+"Depois, tente novamente:\n"
+"\n"
+"  {value0}"
+msgstr ""
+
+#: scripts/install_local.py:258
+msgid "[1/4] Verificando se este computador está pronto para instalar…"
+msgstr ""
+
+#: scripts/install_local.py:279
+msgid "Diretório local sem recibo gerenciado; revise antes de instalar"
+msgstr ""
+
+#: scripts/install_local.py:298
+msgid "[2/4] Preparando o componente local e baixando dependências Python…"
+msgstr ""
+
+#: scripts/install_local.py:302
+msgid "Isso pode levar alguns minutos. Aguarde sem fechar este terminal."
+msgstr ""
+
+#: scripts/install_local.py:333
+msgid "[3/4] Instalando o widget e configurando a inicialização automática…"
+msgstr ""
+
+#: scripts/install_local.py:382
+msgid "[4/4] Instalação concluída!"
+msgstr ""
+
+#: scripts/install_local.py:385
+msgid "Clique com o botão direito na barra do KDE → Adicionar widgets → procure LG ThinQ AirCon Widget."
+msgstr ""
+
+#: scripts/install_local.py:389
+msgid "Adicione-o à barra; depois abra Configurações → Conexão e credenciais."
+msgstr ""
+
+#: scripts/install_local.py:392
+msgid "Informe PAT/país e clique em Salvar e conectar. Nenhum PAT foi lido pelo instalador."
+msgstr ""
+
+#: scripts/install_local.py:399
+msgid "Atualização concluída. Reabra a instância do widget para carregar o QML atualizado."
+msgstr ""
+
+#: scripts/install_local.py:407
+msgid "Nenhuma instalação local gerenciada encontrada"
+msgstr ""
+
+#: scripts/install_local.py:428
+msgid "Removido. Remova a instância do painel. Configuração e credencial foram preservadas."
+msgstr ""
+
+#: scripts/install_local.py:434
+msgid "Para apagar a configuração: gerencie ~/.config/lgthinq-kde/config.json (ou XDG_CONFIG_HOME)."
+msgstr ""
+
+#: scripts/install_local.py:440
+msgid "No cofre, remova lgthinq-kde-widget/default; revogue o PAT no portal LG se necessário."
+msgstr ""
+
+#: scripts/install_local.py:449
+msgid "Instala LG ThinQ AirCon Widget no seu usuário KDE: widget e conexão local automática."
+msgstr ""
+
+#: scripts/install_local.py:458
+msgid "install: instalar; update: atualizar; remove: desinstalar; check: só verificar"
+msgstr ""
+
+#: scripts/install_local.py:470
+msgid "Pré-requisitos locais verificados; cofre/credencial serão validados na configuração gráfica."
+msgstr ""
+
+#: scripts/install_local.py:475
+#, python-brace-format
+msgid ""
+"Para instalar, execute:\n"
+"\n"
+"  {value0}"
+msgstr ""
+
+#: scripts/install_local.py:493
+msgid ""
+"\n"
+"Não foi possível concluir esta operação.\n"
+msgstr ""
+
+#: scripts/install_local.py:498
+msgid "Um dos passos retornou erro. A última saída do programa aparece acima."
+msgstr ""
+
+#: scripts/install_local.py:502
+#, python-brace-format
+msgid "Passo que falhou: {value0}"
+msgstr ""
+
+#: scripts/install_local.py:507
+msgid "Se o erro ocorreu no download, confira a internet e execute novamente o instalador."
+msgstr ""
+
+#: scripts/install_local.py:515
+#, python-brace-format
+msgid "Não foi possível acessar um arquivo ou executar um programa: {value0}"
+msgstr ""

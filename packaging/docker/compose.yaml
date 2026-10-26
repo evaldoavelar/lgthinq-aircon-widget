@@ -1,0 +1,29 @@
+services:
+  lgthinq:
+    build:
+      context: ../..
+      dockerfile: packaging/docker/Dockerfile
+    image: lgthinq-homelab:local
+    # Host loopback only: terminate HTTPS in a local proxy or private tunnel.
+    ports:
+      - "127.0.0.1:8765:8765"
+    read_only: true
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    volumes:
+      - type: bind
+        source: ${LG_CONFIG_FILE:?Set LG_CONFIG_FILE to the non-secret config JSON path}
+        target: /config/config.json
+        read_only: true
+    secrets:
+      - source: lg_pat
+        target: lg_pat
+      - source: api_token
+        target: api_token
+secrets:
+  lg_pat:
+    file: ${LG_PAT_FILE:?Set LG_PAT_FILE to the runtime PAT secret file path}
+  api_token:
+    file: ${LG_API_TOKEN_FILE:?Set LG_API_TOKEN_FILE to the independent runtime API secret file path}

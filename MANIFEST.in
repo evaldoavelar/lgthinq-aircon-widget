@@ -1,0 +1,16 @@
+# Exact internal backend sdist; no checkout documents, tests or draft catalogs.
+global-exclude *
+include pyproject.toml BACKEND.md MANIFEST.in LICENSE LICENSE-DOCS NOTICE
+include src/lgthinq_daemon/__init__.py src/lgthinq_daemon/__main__.py
+include src/lgthinq_daemon/cli.py src/lgthinq_daemon/client.py
+include src/lgthinq_daemon/config.py src/lgthinq_daemon/container_server.py
+include src/lgthinq_daemon/credentials.py src/lgthinq_daemon/dbus_service.py
+include src/lgthinq_daemon/engine.py src/lgthinq_daemon/http_api.py
+include src/lgthinq_daemon/live.py src/lgthinq_daemon/local.py
+include src/lgthinq_daemon/models.py src/lgthinq_daemon/remote.py
+include src/lgthinq_daemon/i18n.py
+include src/lgthinq_daemon/locale/en/LC_MESSAGES/lgthinq-kde-widget.mo
+include src/lgthinq_daemon/locale/pt_BR/LC_MESSAGES/lgthinq-kde-widget.mo
+include src/lgthinq_aircon_widget.egg-info/PKG-INFO src/lgthinq_aircon_widget.egg-info/SOURCES.txt
+include src/lgthinq_aircon_widget.egg-info/dependency_links.txt src/lgthinq_aircon_widget.egg-info/entry_points.txt
+include src/lgthinq_aircon_widget.egg-info/requires.txt src/lgthinq_aircon_widget.egg-info/top_level.txt

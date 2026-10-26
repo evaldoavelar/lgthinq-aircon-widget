@@ -1,0 +1,18 @@
+{
+  "KPlugin": {
+    "Authors": [
+      {
+        "Name": "LG ThinQ KDE Widget Project"
+      }
+    ],
+    "Category": "System Information",
+    "Description": "PoC local de comunicação D-Bus; não controla um aparelho real",
+    "Icon": "airconditioner",
+    "Id": "org.lgthinq.aircon.poc",
+    "Name": "LG ThinQ D-Bus PoC",
+    "Version": "0.1.0",
+    "License": "GPL-3.0-or-later"
+  },
+  "X-Plasma-API-Minimum-Version": "6.4",
+  "KPackageStructure": "Plasma/Applet"
+}

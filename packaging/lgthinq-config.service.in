@@ -1,0 +1,18 @@
+[Unit]
+Description=LG ThinQ AirCon Widget backend
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+WorkingDirectory=@PROJECT_DIR@
+Environment=@PYTHONPATH@
+Environment=PYTHON_KEYRING_BACKEND=keyring.backends.SecretService.Keyring
+ExecStart=@PYTHON@ -m lgthinq_daemon @ARGUMENTS@
+Restart=on-failure
+RestartSec=15
+NoNewPrivileges=true
+UMask=0077
+
+[Install]
+WantedBy=graphical-session.target
